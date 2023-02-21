@@ -1,0 +1,23 @@
+.Input{
+    background-image: url('../assets/bg-shorten-desktop.svg');
+    background-size: auto;
+    background-color: hsl(257, 27%, 26%);
+    padding: 30px;
+    width: 73%;
+    margin: 0 auto;
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+
+input{
+    height: 20px;
+    padding: 10px;
+    width: 100%;
+    margin-right: 70px;
+    border-radius: 10px;
+}
+
+.boxButton{
+    margin-left: 40px;
+}
