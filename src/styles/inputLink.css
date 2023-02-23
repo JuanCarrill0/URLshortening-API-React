@@ -2,10 +2,11 @@
     background-image: url('../assets/bg-shorten-desktop.svg');
     background-size: auto;
     background-color: hsl(257, 27%, 26%);
+    position: relative;
+    top: 50px;
     padding: 30px;
     width: 73%;
     margin: 0 auto;
-    border: 1px solid red;
     display: grid;
     grid-template-columns: 80% 20%;
 }

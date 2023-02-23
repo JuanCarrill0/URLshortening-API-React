@@ -4,6 +4,7 @@ import './App.css';
 import {Navbar} from './components/navBar';
 import { Banner } from './components/banner';
 import { Input } from './components/inputLink';
+import { Stadistics } from './components/stadistics';
 
 import './App.css';
 
@@ -18,6 +19,9 @@ function App() {
         <Banner/>
         <Input 
           onChange={handleLinkChange}        
+        />
+        <Stadistics 
+        
         />
     </div>
   );
