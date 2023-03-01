@@ -5,7 +5,8 @@ import {Navbar} from './components/navBar';
 import { Banner } from './components/banner';
 import { Input } from './components/inputLink';
 import { Stadistics } from './components/stadistics';
-
+import { FooterTop } from './components/footerTop';
+import { FooterBottom } from './components/footerBottom';
 import './App.css';
 
 function App() {
@@ -23,6 +24,8 @@ function App() {
         <Stadistics 
         
         />
+        <FooterTop />
+        <FooterBottom />
     </div>
   );
 }
