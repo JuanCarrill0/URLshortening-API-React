@@ -1,8 +1,5 @@
 import React from "react";
 
-import "../styles/cardStadistic.css"
-
-
 interface propsCard{
     marginTop: string | number
     image: string
@@ -12,13 +9,13 @@ interface propsCard{
 
 export const Cardstadistics = (props:propsCard) =>{
     return(
-        <div className="cardStadistic" style={{marginTop : props.marginTop}}>
-            <div className="imageCard">
+        <div className="bg-white w-96 h-64" style={{marginTop : props.marginTop}}>
+            <div className="bg-violet w-20 h-20 flex items-center justify-center rounded-full relative bottom-8 left-7">
                 <img src={props.image} alt="" />
             </div>
-            <div className="infoCard">
-                <h3 className="titleCard">{props.title}</h3>
-                <p className="textCard">{props.text}</p>
+            <div className="px-8 pb-2">
+                <h3 className="font-bold text-xl mb-3 ">{props.title}</h3>
+                <p className="text-sm text-grayish-violet">{props.text}</p>
             </div>
         </div>
     );

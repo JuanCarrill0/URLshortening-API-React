@@ -1,6 +1,5 @@
 import React from "react";
 
-import "../styles/button.css"
 
 interface buttonProps{
     text : String
@@ -11,8 +10,8 @@ interface buttonProps{
 
 export const Button = (props:buttonProps) =>{
     return(
-        <div className="Button" style={{width: props.width, height : props.height, borderRadius : props.borderRadius }}>
-            <button className="buttonStyle" >{props.text}</button>
+        <div className="bg-[hsl(180,66%,49%)]  flex mx-6 text-white text-center font-bold items-center justify-center" style={{width: props.width, height : props.height, borderRadius : props.borderRadius }}>
+            <button className="" >{props.text}</button>
         </div>
     );
 }
