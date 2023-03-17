@@ -9,8 +9,8 @@ interface propsInput{
 
 export const Input = (props : propsInput) =>{
     return(
-        <div className="bg-dark-violet flex items-center p-12 mb-16 relative top-10" style={{ backgroundImage: `url(${Background})` }}>
-            <div className="flex-1 ">
+        <div className="bg-dark-violet flex items-center p-12 mb-16 relative top-10 rounded-lg max-md:flex-col max-md:p-6" style={{ backgroundImage: `url(${Background})` }}>
+            <div className="flex-1 max-md:mb-5 max-md:w-full ">
                 <input className="p-4 rounded-lg w-full" type="text" placeholder="Shorten a link here ..." onChange={props.onChange} />
             </div>
             <div className="">

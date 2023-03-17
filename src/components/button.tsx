@@ -10,7 +10,7 @@ interface buttonProps{
 
 export const Button = (props:buttonProps) =>{
     return(
-        <div className="bg-[hsl(180,66%,49%)]  flex mx-6 text-white text-center font-bold items-center justify-center" style={{width: props.width, height : props.height, borderRadius : props.borderRadius }}>
+        <div className="bg-[hsl(180,66%,49%)]  flex mx-6 text-white text-center font-bold items-center justify-center cursor-pointer hover:bg-sky-200" style={{width: props.width, height : props.height, borderRadius : props.borderRadius }}>
             <button className="" >{props.text}</button>
         </div>
     );
